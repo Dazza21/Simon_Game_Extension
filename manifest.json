@@ -1,0 +1,16 @@
+ {
+  "manifest_version": 2,
+  "name": "Simon_Game",
+  "description": "Extension for Simon_Game",
+  "version": "1.0",
+  "icons":{
+    "48": "icon48.png"
+  },
+  "browser_action": {
+   "default_popup": "index.html"
+  },
+  "permissions": [
+   "activeTab",
+   "storage"
+  ]
+ }
